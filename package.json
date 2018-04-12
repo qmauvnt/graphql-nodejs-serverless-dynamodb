@@ -1,0 +1,33 @@
+{
+  "name": "graphql-serverless-dynamodb",
+  "version": "1.0.0",
+  "description": "Sample API uses graphql-serverless-dynamoDB",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/qmau94/graphql-nodejs-serverless-dynamodb.git"
+  },
+  "keywords": [
+    "graphql",
+    "serverless",
+    "nodejs",
+    "dynamodb"
+  ],
+  "author": "qmau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qmau94/graphql-nodejs-serverless-dynamodb/issues"
+  },
+  "homepage": "https://github.com/qmau94/graphql-nodejs-serverless-dynamodb#readme",
+  "dependencies": {
+    "apollo-server-express": "^1.3.4",
+    "apollo-server-lambda": "^1.3.4",
+    "aws-sdk": "^2.223.1",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "graphql-tools": "^2.23.1"
+  }
+}
